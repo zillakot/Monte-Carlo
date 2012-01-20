@@ -63,7 +63,7 @@
 
 %\tableofcontents{}
 
-\section*{1. problem}
+\section*{Problem 1}
 
 \begin{equation*}
 P_{hit}=P_1*P_2,
@@ -80,8 +80,73 @@ Therefore
 \begin{equation*}
 P_{hit}=P_1*P_2=\frac{2l}{\pi d}.
 \end{equation*}
-\subsection*{a)}Figure shows that when you throw only 10 times the predicted value for $\pi$ is bad.
-\includegraphics[width=15cm]{mc_p01_a.jpg}
-\subsection*{a)}You can see from figure that after approximately 5000 throws result starts to converge.
-\includegraphics[width=15cm]{mc_p01_b.jpg}
+\subsection*{a)}
+\begin{figure}[H]
+	\caption{When you throw only 10 times the predicted value for $\pi$ is bad.}
+	\includegraphics[width=15cm]{mc_p01_a.jpg}
+\end{figure}
+\subsection*{a)}
+\begin{figure}
+\caption{After approximately 5000 throws result starts to converge.}
+	\includegraphics[width=15cm]{mc_p01_b.jpg}
+\end{figure}
+
+\section*{Problem 3}
+\begin{figure}
+\caption{100 numbers generated with the quick-and-dirty generator}
+\includegraphics[width=15cm]{qd1.jpg}
+\end{figure}
+\begin{figure}
+\caption{10000 numbers generated with the quick-and-dirty generator}
+\includegraphics[width=15cm]{qd2.jpg}
+\end{figure}
+\begin{figure}
+\caption{100 numbers generated with the Park-Miller generator}
+\includegraphics[width=15cm]{pm1.jpg}
+\end{figure}
+\begin{figure}
+\caption{10000 numbers generated with the Park-Miller generator}
+\includegraphics[width=15cm]{pm2.jpg}
+\end{figure}
+
+\section*{Problem 4}
+\begin{figure}
+\caption{10 000 points with the quick-and-dirty generator with interval x=[0, 0.0001]}
+\includegraphics[width=15cm]{qd3.jpg}
+\end{figure}
+\begin{figure}
+\caption{10 000 points with the quick-and-dirty generator with interval x=[0, 0.001]}
+\includegraphics[width=15cm]{qd4.jpg}
+\end{figure}
+\begin{figure}
+\caption{10 000 points with the Park-Miller generator with interval x=[0, 0.0001]}
+\includegraphics[width=15cm]{pm3.jpg}
+\end{figure}
+\begin{figure}
+\caption{10 000 points with the Park-Miller generator with interval x=[0, 0.001]}
+\includegraphics[width=15cm]{pm4.jpg}
+\end{figure}
+
+
+
+\section*{Problem 6}
+Following block of code can be found from the source code of Mersenne Twister:
+
+\begin{tabbing}
+\texttt{/* initializes mt[N] with a seed */}\\
+\texttt{void init\_genrand( unsigned long s) }\\
+\texttt{\{} \ \= \+ \\
+\texttt{ mt[0]= s \& 0xffffffffUL;}  \\
+\texttt{    for}\=\texttt{ (mti=1; mti<N; mti++) \{ }\+\\
+\texttt{        mt[mti] = }\\
+\texttt{	    (1812433253UL * (mt[mti-1] \^ (mt[mti-1] >> 30)) + mti); }\\
+\texttt{        /* See Knuth TAOCP Vol2. 3rd Ed. P.106 for multiplier.}\\ %*/
+\texttt{       /* In the previous versions, MSBs of the seed affect  */}\\
+\texttt{        /* only MSBs of the array mt[].                        */}\\
+\texttt{        /* 2002/01/09 modified by Makoto Matsumoto            }\\ %*/
+\texttt{       mt[mti] \&= 0xffffffffUL;}\\
+\- \texttt{       /* for >32 bit machines */}\\
+\- \texttt{    \}}\\
+\texttt{\}}
+\end{tabbing}
 \end{document}
