@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.10.14)  20 JAN 2012 22:38
+This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.10.14)  20 JAN 2012 22:43
 entering extended mode
  %&-line parsing enabled.
 **mc_p01.tex
@@ -383,18 +383,18 @@ Package: amsthm 2004/08/06 v2.20
  (./mc_p01.aux)
 \openout1 = `mc_p01.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
 (/usr/local/texlive/2008/texmf-dist/tex/context/base/supp-pdf.tex
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count104
@@ -448,11 +448,11 @@ driver: dvips
 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-LaTeX Font Info:    Try loading font information for U+msa on input line 60.
+LaTeX Font Info:    Try loading font information for U+msa on input line 61.
 (/usr/local/texlive/2008/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2002/01/19 v2.2g AMS font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 60.
+LaTeX Font Info:    Try loading font information for U+msb on input line 61.
 
 (/usr/local/texlive/2008/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2002/01/19 v2.2g AMS font definitions
@@ -490,7 +490,7 @@ File: pm3.jpg Graphic file (type jpg)
 <pm4.jpg, id=18, 949.5475pt x 588.1975pt>
 File: pm4.jpg Graphic file (type jpg)
  <use pm4.jpg>
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 136.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 137.
 
 
 (/usr/local/texlive/2008/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -501,7 +501,7 @@ File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 Here is how much of TeX's memory you used:
  2755 strings out of 493876
  33216 string characters out of 1150567
- 88434 words of memory out of 3000000
+ 88453 words of memory out of 3000000
  5983 multiletter control sequences out of 10000+50000
  16504 words of font info for 51 fonts, out of 3000000 for 5000
  714 hyphenation exceptions out of 8191
@@ -521,7 +521,7 @@ super/sfrm1200.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/public/cm-su
 per/sfrm1440.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/public/cm-supe
 r/sfrm2074.pfb></usr/local/texlive/2008/texmf-dist/fonts/type1/public/cm-super/
 sftt1200.pfb>
-Output written on mc_p01.pdf (8 pages, 928488 bytes).
+Output written on mc_p01.pdf (8 pages, 928957 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
