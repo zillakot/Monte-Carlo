@@ -1,17 +1,17 @@
-\title{Harjoitus 1}
+\title{Excercise 1}
 \author{\Large
 	\textsc{Markus Korpinen} \\
 	\mbox{}\\
-	Monte Carlo -simulointien perusteet\\
-	Fysiikan laitos, Helsingin yliopisto
+	Basics if Monte Carlo -simulations\\
+	Department of Physics, University of Helsinki
 }
 \date{\today}
 
 \documentclass[12pt]{article}
 
 \usepackage{graphicx}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
 
-\usepackage[finnish]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[paper=a4paper,dvips,top=2.5cm,left=2.5cm,right=2.5cm,
@@ -63,7 +63,25 @@
 
 %\tableofcontents{}
 
-\section*{1. tehtävä}
+\section*{1. problem}
 
-
+\begin{equation*}
+P_{hit}=P_1*P_2,
+\end{equation*}
+where $P_1$ is the probability that center of needle is less than $l/2$ away from line and $P_2$ is the the probability that the needle is in a right angle to cross the line. Probabilities $P_1$ and $P_2$ are depending on each other so they have to be multiplied. Because $P_1$ can fall to eather side of line 
+\begin{equation*}
+P_1=\frac{l/2+l/2}{d}=\frac{l}{d}.
+\end{equation*}
+Probability that needle crosses the line when center falls x away is a function of x. The probability $P_2$ when needle drops somewhere can be obtained by integrating and setting $l=2$ (unit circle)
+\begin{equation*}
+P_2=4\int_{0}^{1}\frac{cos^{-1}(x)}{2\pi}dx=\frac{2}{\pi}.
+\end{equation*}
+Therefore
+\begin{equation*}
+P_{hit}=P_1*P_2=\frac{2l}{\pi d}.
+\end{equation*}
+\subsection*{a)}Figure shows that when you throw only 10 times the predicted value for $\pi$ is bad.
+\includegraphics[width=15cm]{mc_p01_a.jpg}
+\subsection*{a)}You can see from figure that after approximately 5000 throws result starts to converge.
+\includegraphics[width=15cm]{mc_p01_b.jpg}
 \end{document}
